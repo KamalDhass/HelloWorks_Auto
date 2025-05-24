@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Work Automator</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <h3>Hello Work Automator</h3>
+    <button id="startStopButton">Start Automation</button>
+    <div class="status-container">
+        <h4>Status:</h4>
+        <textarea id="statusDisplay" rows="5" readonly></textarea>
+    </div>
+    <div class="counters">
+        <p>Applications Sent: <span id="sentCounter">0</span></p>
+        <p>Jobs Skipped/Errors: <span id="skippedCounter">0</span></p>
+    </div>
+    <a href="#" id="optionsLink">Settings</a>
+    <script src="popup.js"></script>
+</body>
+</html>
