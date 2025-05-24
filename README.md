@@ -107,6 +107,3 @@ Before using the extension, you **MUST** configure it:
     4.  Open the extension's service worker console: Go to `chrome://extensions`, find the "Hello Work Application Automator", and click the "Service worker" link to check for errors logged by `background.js`.
 * **Cover Letter Issues:** If cover letters are poor quality or truncated, ensure your profile details are comprehensive. The `max_tokens` for the AI is currently set to 700 in `background.js`.
 
----
-
-This README provides a good starting point. You can expand on sections or add new ones (like "Contributing" or "License") as the project evolves.
